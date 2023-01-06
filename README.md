@@ -51,17 +51,19 @@ Labels commonly include operating system name, version, architecture, and Window
 
 ## ARM 64 bit (aarch64)
 
-| Platform                   | OS Name            | Version        | Architecture |
-| -------------------------- | ------------------ | -------------- | ------------ |
-| Debian 10                  | `Debian`           | `10`           | `aarch64`    |
-| Oracle Linux 8             | `OracleServer`     | `8.7`          | `aarch64`    |
+| Platform       | OS Name            | Version | Architecture |
+|----------------| ------------------ |---------| ------------ |
+| Debian 10      | `Debian`           | `10`    | `aarch64`    |
+| Debian 11      | `Debian`           | `11`    | `aarch64`    |
+| Oracle Linux 8 | `OracleServer`     | `8.7`   | `aarch64`    |
 
 ## ARM 32 bit (arm)
 
-| Platform                   | OS Name            | Version        | Architecture |
-| -------------------------- | ------------------ | -------------- | ------------ |
-| Raspbian 10                | `Raspbian`         | `10`           | `arm`        |
-| Raspbian 11                | `Raspbian`         | `11`           | `arm`        |
+| Platform    | OS Name    | Version        | Architecture |
+|-------------|------------| -------------- | ------------ |
+| Raspbian 10 | `Raspbian` | `10`           | `arm`        |
+| Raspbian 11 | `Raspbian` | `11`           | `arm`        |
+| Debian 11   | `Debian`   | `11`           | `arm`        |
 
 ## IBM System 390 (s390x)
 
@@ -69,6 +71,14 @@ Labels commonly include operating system name, version, architecture, and Window
 | -------------------------- | ------------------ | -------------- | ------------ |
 | Ubuntu 18                  | `Ubuntu`           | `18.04`        | `s390x`      | // EOL: 30 Apr 2023
 | Ubuntu 20                  | `Ubuntu`           | `20.04`        | `s390x`      | // EOL: 30 Apr 2025
+
+
+## RISC-V 64 bit 
+
+| Platform    | OS Name    | Version | Architecture |
+|-------------|------------|---------|--------------|
+| Ubuntu 22   | `Ubuntu`   | `22.04` | `riscv64`    |
+
 
 On Windows computers, the plugin assigns a label based on the Windows feature update.
 Feature update labels use a two digit year and a two digit month representation.
